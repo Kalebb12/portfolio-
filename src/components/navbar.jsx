@@ -6,16 +6,16 @@ import {glass} from "../styles"
 const Navbar = () => {
   return (
     <nav className={`sm:px-20 sm:py-6 p-4 fixed  top-0 w-full ${glass}`}>
-      <div className="flex items-center justify-between px-8 max-w-[1220px]">
+      <div className="flex items-center justify-between px-8 max-w-[1300px]">
         <Link to="#" onClick={()=>{window.scroll(0,0)}}>
-          <div className="flex gap-2 sm:gap-3 items-center">
-            <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
+          <div className="flex items-center gap-2 sm:gap-3">
+            <img src={logo} alt="logo" className="object-contain w-10 h-10" />
             <h2 className="font-bold text-[20px]">Personal</h2>
           </div>
         </Link>
 
         {/* Getting the Links from Navlink constants*/}
-        <ul className="list-none gap-8 flex items-center">
+        <ul className="flex items-center gap-8 list-none">
           {navLinks.map((link, i) => {
             return (
               <a
