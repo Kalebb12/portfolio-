@@ -5,8 +5,8 @@ import { FiDownload } from "react-icons/fi";
 import {glass} from "../styles"
 const Navbar = () => {
   return (
-    <nav className={`sm:px-20 sm:py-6 p-4 fixed top-0 w-full ${glass}`}>
-      <div className="flex items-center justify-between px-8">
+    <nav className={`sm:px-20 sm:py-6 p-4 fixed  top-0 w-full ${glass}`}>
+      <div className="flex items-center justify-between px-8 max-w-[1220px]">
         <Link to="#" onClick={()=>{window.scroll(0,0)}}>
           <div className="flex gap-2 sm:gap-3 items-center">
             <img src={logo} alt="logo" className="w-10 h-10 object-contain" />

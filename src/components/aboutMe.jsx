@@ -2,7 +2,7 @@ import profile from "/profile.png";
 const AboutMe = () => {
   return (
     <section id="about-me" className="py-[60px] px-[80px]">
-      <div className="px-[32px] flex justify-between">
+      <div className="px-[32px] flex gap-10 justify-between">
         <img src={profile} alt="" />
         <div className="flex flex-col gap-4">
           <div className="py-4">
