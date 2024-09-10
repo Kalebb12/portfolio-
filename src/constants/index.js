@@ -1,7 +1,3 @@
-import twitter from "/twitter-x.svg";
-import linkedin from "/linkedin.svg";
-import github from "/bi--github.svg";
-
 export const navLinks = [
   { title: "About Me", url: "about-me" },
   { title: "Skills", url: "skills" },
