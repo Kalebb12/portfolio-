@@ -18,13 +18,13 @@ const Navbar = () => {
         <ul className="list-none gap-8 flex items-center">
           {navLinks.map((link, i) => {
             return (
-              <Link
-                to={`#${link.url}`}
+              <a
+                href={`#${link.url}`}
                 key={i}
                 className="font-semibold text-[20px] hover:text-[var(--neutral)]"
               >
                 {link.title}
-              </Link>
+              </a>
             );
           })}
         </ul>
