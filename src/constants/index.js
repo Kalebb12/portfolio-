@@ -6,7 +6,7 @@ export const navLinks = [
 ];
 
 export const aboutMe =
-  "I'm Caleb John a seasoned full stack web developer, I specialize in the MERN stack, crafting scalable and efficient web applications.I'm excited to expand my skills by learning Python. With a strong foundation in both front-end and back-end development, I design and implement robust, data-driven applications. I'm eager to apply my skills to new challenges and contribute to innovative projects.";
+  "I specialize in the MERN stack, crafting scalable and efficient web applications.I'm excited to expand my skills by learning Python. With a strong foundation in both front-end and back-end development, I design and implement robust, data-driven applications. I'm eager to apply my skills to new challenges and contribute to innovative projects.";
 
 export const socialMediaPreferences = [
   {
@@ -60,3 +60,25 @@ export const skillsList = [
     icon: "fa-brands fa-css3",
   }
 ];
+
+
+export const projects = [
+  {
+    img:"/image.png",
+    name:"Crypto Screener Application",
+    link:"https://v2.chakra-ui.com/docs/components/modal/usage",
+    des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+  },
+  {
+    img:"/image.png",
+    name:"Crypto Screener Application",
+    link:"https://v2.chakra-ui.com/docs/components/modal/usage",
+    des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+  },
+  {
+    img:"/image.png",
+    name:"Crypto Screener Application",
+    link:"https://v2.chakra-ui.com/docs/components/modal/usage",
+    des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+  }
+]

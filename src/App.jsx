@@ -3,6 +3,7 @@ import Hero from "./components/hero"
 import Navbar from "./components/navbar"
 import Skills from "./components/skills"
 import AboutMe from "./components/aboutMe"
+import Projects from "./components/projects"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* <MyExperience/> */}
 
       <AboutMe />
+      <Projects/>
     </div>
   )
 }
