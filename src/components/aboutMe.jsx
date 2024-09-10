@@ -2,7 +2,7 @@ import profile from "/profile.png";
 const AboutMe = () => {
   return (
     <section id="about-me" className="py-[60px] px-[80px]">
-      <div className="px-[32px] flex gap-10 justify-between">
+      <div className="px-[32px] xl:flex-row flex flex-col gap-10 xl:items-start items-center justify-between">
         <img src={profile} alt="" />
         <div className="flex flex-col gap-4">
           <div className="py-4">
@@ -10,7 +10,7 @@ const AboutMe = () => {
               About <span className="font-extrabold">Me</span>
             </h2>
           </div>
-          <div className="flex gap-5 flex-col w-[610px] text-[var(--zinc-500)]">
+          <div className="flex gap-5 flex-col text-[var(--zinc-500)]">
             <p className="">
               I'm a passionate, self-proclaimed designer who specializes in full
               stack development (React.js & Node.js). I am very enthusiastic

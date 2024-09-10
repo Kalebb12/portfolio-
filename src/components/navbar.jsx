@@ -6,7 +6,7 @@ import {glass} from "../styles"
 const Navbar = () => {
   return (
     <nav className={`sm:px-20 sm:py-6 p-4 fixed  top-0 w-full ${glass}`}>
-      <div className="flex items-center justify-between px-8 max-w-[1300px]">
+      <div className="flex items-center justify-between sm:px-8 max-w-[1300px]">
         <Link to="#" onClick={()=>{window.scroll(0,0)}}>
           <div className="flex items-center gap-2 sm:gap-3">
             <img src={logo} alt="logo" className="object-contain w-10 h-10" />
@@ -15,7 +15,7 @@ const Navbar = () => {
         </Link>
 
         {/* Getting the Links from Navlink constants*/}
-        <ul className="flex items-center gap-8 list-none">
+        <ul className="items-center gap-8 list-none lg:flex hidden">
           {navLinks.map((link, i) => {
             return (
               <a

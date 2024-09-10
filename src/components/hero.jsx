@@ -1,9 +1,11 @@
 import { aboutMe } from "../constants";
 import SocialLinks from "./common/socialLinks";
+import heroImg from "/hero.png"
 const Hero = () => {
   return (
-    <section className="mt-[90px] my-[60px] mx-[80px] ">
-      <div className="px-8 py-[110px] xl:bg-[url(/hero.png)]  bg-no-repeat bg-right-top">
+    <section className="mt-[90px] sm:py-[60px] px-4 py-10 sm:px-[80px] ">
+      <div className="px-8 xl:py-[110px] xl:bg-[url(/hero.png)]  bg-no-repeat bg-right-top flex flex-col gap-12 items-center">
+      <img src={heroImg} alt="heroImg" className="xl:hidden" />
         <div className="flex flex-col gap-12 xl:w-[600px]">
           <h1 className="font-normal text-[48px] tracking-[-2%]">
             Hello I’am{" "}
