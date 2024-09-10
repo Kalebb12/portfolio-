@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <section className="lg:py-[60px] py-10 px-4 lg:px-[80px]" id="skills">
       <div className="flex flex-col items-center px-8 gap-5">
-        <h2 className="font-normal text-[48px]">
+        <h2 className="font-normal md:text-[48px] text-[28px]">
           My <span className="font-extrabold">Skills</span>
         </h2>
 

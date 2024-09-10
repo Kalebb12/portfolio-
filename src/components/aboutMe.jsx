@@ -1,12 +1,12 @@
 import profile from "/profile.png";
 const AboutMe = () => {
   return (
-    <section id="about-me" className="py-[60px] px-[80px]">
-      <div className="px-[32px] xl:flex-row flex flex-col gap-10 xl:items-start items-center justify-between">
+    <section id="about-me" className="md:py-[60px] py-10 px-4 md:px-[80px]">
+      <div className="md:px-[32px] md:py-0 py-1 xl:flex-row flex flex-col gap-5 md:gap-10 xl:items-start items-center justify-between">
         <img src={profile} alt="" />
         <div className="flex flex-col gap-4">
           <div className="py-4">
-            <h2 className="font-normal text-[28px]">
+            <h2 className="font-normal md:text-[48px] text-[28px]">
               About <span className="font-extrabold">Me</span>
             </h2>
           </div>
