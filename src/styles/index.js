@@ -1,1 +1,1 @@
-export const glass = "bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20"
+export const glass = "bg-white bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20"
