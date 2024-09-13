@@ -64,20 +64,20 @@ export const skillsList = [
 
 export const projects = [
   {
-    img:"/image.png",
-    name:"Crypto Screener Application",
+    img:"/store.png",
+    name:"Mini Store Website",
     link:"https://v2.chakra-ui.com/docs/components/modal/usage",
     des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
   },
   {
-    img:"/image.png",
-    name:"Crypto Screener Application",
+    img:"/food-recipe.png",
+    name:"Search Food Recipes",
     link:"https://v2.chakra-ui.com/docs/components/modal/usage",
     des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
   },
   {
-    img:"/image.png",
-    name:"Crypto Screener Application",
+    img:"/filmFusion.png",
+    name:"Film Fusion Website",
     link:"https://v2.chakra-ui.com/docs/components/modal/usage",
     des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
   }
