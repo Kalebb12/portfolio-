@@ -1,8 +1,8 @@
 export const navLinks = [
-  { title: "About Me", url: "about-me" },
   { title: "Skills", url: "skills" },
-  { title: "Contact Me", url: "contact-me" },
+  { title: "About Me", url: "about-me" },
   { title: "Project", url: "project" },
+  { title: "Contact Me", url: "contact-me" },
 ];
 
 export const aboutMe =
@@ -67,18 +67,18 @@ export const projects = [
     img:"/store.png",
     name:"Mini Store Website",
     link:"https://v2.chakra-ui.com/docs/components/modal/usage",
-    des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+    des:"The Mini Store Website is a sleek and modern e-commerce platform designed to showcase my skills in React development. This project demonstrates my ability to create a fully functional online store with a user-friendly interface, dynamic product listings, and seamless navigation."
   },
   {
     img:"/food-recipe.png",
     name:"Search Food Recipes",
     link:"https://v2.chakra-ui.com/docs/components/modal/usage",
-    des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+    des:"The Food Recipes Website is a comprehensive platform designed to showcase a wide variety of recipes from different cuisines. This project highlights my skills in React development, focusing on creating an engaging and interactive user experience for food enthusiasts."
   },
   {
     img:"/filmFusion.png",
     name:"Film Fusion Website",
     link:"https://v2.chakra-ui.com/docs/components/modal/usage",
-    des:"I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+    des:"Is a dynamic and responsive web application built using React. It leverages the TMDB (The Movie Database) API to fetch and display detailed information about top movies, including ratings, genres, and descriptions. "
   }
 ]
