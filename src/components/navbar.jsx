@@ -34,7 +34,6 @@ const Navbar = () => {
           })}
         </ul>
 
-        {/* //TODO: Add link to download resume */}
         <a href="/calebResume.pdf" target="_blank" download="caleb-resume">
           <button className="bg-[var(--black)] text-[var(--white)] flex items-center py-2 px-3 gap-2 rounded-sm hover:bg-[var(--neutral)] border border-black active:text-black active:bg-white">
             Resume <FiDownload width={20} height={20} />
