@@ -1,4 +1,4 @@
-import logo from "/logo.png";
+import logo from "/logo-black.svg";
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
@@ -14,7 +14,7 @@ const Navbar = () => {
           }}
         >
           <div className="flex items-center gap-2 sm:gap-3">
-            <img src={logo} alt="logo" className="object-contain w-10 h-10" />
+            <img src={logo} alt="logo" className="object-contain w-10 h-10 text-black" />
             <h2 className="font-bold text-[20px]">Personal</h2>
           </div>
         </Link>
