@@ -76,9 +76,9 @@ export const projects = [
     des:"The Food Recipes Website is a comprehensive platform designed to showcase a wide variety of recipes from different cuisines. This project highlights my skills in React development, focusing on creating an engaging and interactive user experience for food enthusiasts."
   },
   {
-    img:"/filmFusion.png",
-    name:"Film Fusion Website",
-    link:"https://v2.chakra-ui.com/docs/components/modal/usage",
-    des:"Is a dynamic and responsive web application built using React. It leverages the TMDB (The Movie Database) API to fetch and display detailed information about top movies, including ratings, genres, and descriptions. "
+    img:"/reelReview.png",
+    name:"Reel Review Movie Website",
+    link:"https://reel-review-silk.vercel.app/",
+    des:"This dynamic and visually appealing movie website is built with React, leveraging the TMDB API to deliver up-to-date information about movies. The site features an elegant and responsive design powered by Tailwind CSS and DaisyUI, ensuring a seamless user experience across all devices."
   }
 ]
