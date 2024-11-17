@@ -1,7 +1,7 @@
 import SocialLinks from "../common/socialLinks";
 const ContactForm = () => {
     return ( 
-        <form action="https://formspree.io/f/movazpbw" method="POST" className="flex flex-col gap-5">
+        <form action={import.meta.env.VITE_FORMSPREE_API} method="POST" className="flex flex-col gap-5">
             <input
               type="text"
               placeholder="Your name"
