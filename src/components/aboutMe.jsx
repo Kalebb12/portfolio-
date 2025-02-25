@@ -1,5 +1,7 @@
 import profile from "/profile.png";
 const AboutMe = () => {
+
+  const yearsOfExperience = new Date().getFullYear() - 2022
   return (
     <section id="about-me" className="md:py-[60px] py-10 px-4 md:px-[80px]">
       <div className="md:px-[32px] md:py-0 py-1 xl:flex-row flex flex-col gap-5 md:gap-10 xl:items-start items-center justify-between">
@@ -22,7 +24,7 @@ const AboutMe = () => {
               I began my journey as a web developer in 2022, and since then,
               I've continued to grow and evolve as a developer, taking on new
               challenges and learning the latest technologies along the way.
-              Now, 2 years after starting my web
+              Now, {yearsOfExperience} years after starting my web
               development journey, I'm building cutting-edge web applications
               using modern technologies such as Next.js, TypeScript, Nestjs,
               Tailwindcss, Supabase and much more.
