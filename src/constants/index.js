@@ -82,3 +82,26 @@ export const projects = [
     des:"This dynamic and visually appealing movie website is built with React, leveraging the TMDB API to deliver up-to-date information about movies. The site features an elegant and responsive design powered by Tailwind CSS and DaisyUI, ensuring a seamless user experience across all devices."
   }
 ]
+
+export const testimonials = [
+  {
+    quote: "Caleb is the kind of developer every team needs. He translated our product vision into a sleek, high-performing React app with seamless Supabase integration.",
+    name: "Sarah O.",
+    role: "Product Manager"
+  },
+  {
+    quote: "He led the frontend efforts on our edtech platform, implementing intuitive UI animations and accessibility best practices. Truly detail-oriented.",
+    name: "Emeka T.",
+    role: "UX Lead"
+  },
+  {
+    quote: "Caleb architected our backend on Supabase, built out our API layer, and documented everything clearly. His full-stack skills are solid.",
+    name: "Halima Y.",
+    role: "Senior Developer"
+  },
+  {
+    quote: "What impressed me most was Caleb’s proactive mindset. He brought forward ideas that improved our user onboarding by 40%. A real asset to the team.",
+    name: "Tolu A.",
+    role: "Team Lead"
+  }
+];

@@ -1,9 +1,10 @@
 import projectImg from "/image.png";
 import { projects } from "../constants";
 import ProjectComponent from "./common/projectsComponent";
+import { AnimationContainer } from "./common/AnimationContainer";
 const Projects = () => {
   return (
-    <div
+    <AnimationContainer
       id="project"
       className="sm:px-20 sm:py-[60px] py-10 px-4 bg-black text-white"
     >
@@ -17,7 +18,7 @@ const Projects = () => {
           })}
         </div>
       </div>
-    </div>
+    </AnimationContainer>
   );
 };
 

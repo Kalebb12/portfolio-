@@ -1,9 +1,10 @@
+import { AnimationContainer } from "./common/AnimationContainer";
 import profile from "/profile.png";
 const AboutMe = () => {
 
   const yearsOfExperience = new Date().getFullYear() - 2022
   return (
-    <section id="about-me" className="md:py-[60px] py-10 px-4 md:px-[80px]">
+    <AnimationContainer id="about-me" className="md:py-[60px] py-10 px-4 md:px-[80px]">
       <div className="md:px-[32px] md:py-0 py-1 xl:flex-row flex flex-col gap-5 md:gap-10 xl:items-start items-center justify-between">
         <img src={profile} alt="" />
         <div className="flex flex-col gap-4">
@@ -39,7 +40,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </section>
+    </AnimationContainer>
   );
 };
 

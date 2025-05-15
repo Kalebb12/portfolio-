@@ -1,8 +1,9 @@
+import { AnimationContainer } from "./common/AnimationContainer";
 import ContactForm from "./templates/form";
 
 const ContactMe = () => {
   return (
-    <div className="sm:py-[60px] sm:px-10 py-10 px-4" id="contact-me">
+    <AnimationContainer className="sm:py-[60px] sm:px-10 py-10 px-4" id="contact-me">
       <div className="flex flex-col-reverse items-center justify-center xl:items-start xl:justify-between xl:flex-row sm:px-8">
         <div className="flex flex-1 py-5">
           <ContactForm/>
@@ -26,7 +27,7 @@ const ContactMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </AnimationContainer>
   );
 };
 
