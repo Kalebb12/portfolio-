@@ -64,15 +64,15 @@ export const skillsList = [
 
 export const projects = [
   {
-    img:"/store.png",
-    name:"Mini Store Website",
-    link:"https://v2.chakra-ui.com/docs/components/modal/usage",
-    des:"The Mini Store Website is a sleek and modern e-commerce platform designed to showcase my skills in React development. This project demonstrates my ability to create a fully functional online store with a user-friendly interface, dynamic product listings, and seamless navigation."
+    img:"/Fit Ai.png",
+    name:"Fitness Ai",
+    link:"https://fit-ai-sand.vercel.app/",
+    des:"This project is a fully voice-driven assistant built using Vapi convex and clerk, designed to create personalized fitness and nutrition plans based on user input. It guides users through a short conversational flow, collects relevant health and lifestyle details, and provides customized plans in real-time."
   },
   {
     img:"/food-recipe.png",
     name:"Search Food Recipes",
-    link:"https://v2.chakra-ui.com/docs/components/modal/usage",
+    link:"https://food-receipe-omega.vercel.app/",
     des:"The Food Recipes Website is a comprehensive platform designed to showcase a wide variety of recipes from different cuisines. This project highlights my skills in React development, focusing on creating an engaging and interactive user experience for food enthusiasts."
   },
   {
