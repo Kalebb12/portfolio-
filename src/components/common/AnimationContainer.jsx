@@ -15,7 +15,7 @@ const itemVariants = {
   },
 };
 
-export const AnimationContainer = ({ children, className = "" }) => {
+export const AnimationContainer = ({ children, className = "" , id }) => {
   const childArray = Children.toArray(children);
   // Clone each child and apply itemVariants
   const animatedChildren = Array.isArray(childArray) ? (
@@ -31,7 +31,7 @@ export const AnimationContainer = ({ children, className = "" }) => {
   return (
     <motion.div
       className={className}
-      initial="hidden"
+      id={id}
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
     >
