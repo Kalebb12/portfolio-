@@ -5,7 +5,7 @@ import heroImg from "/hero.png";
 const Hero = () => {
   return (
     <AnimationContainer className="mt-[90px] sm:py-[60px] px-4 py-10 sm:px-[80px] ">
-      <div className="xl:px-8 xl:py-[110px] lg:bg-[url(/hero.png)]  bg-no-repeat bg-right-top lg:block flex flex-col gap-12 items-center">
+      <div className="xl:px-8 xl:py-[110px] lg:bg-[url(/hero.png)] container mx-auto  bg-no-repeat bg-right-top lg:block flex flex-col gap-12 items-center">
         <img src={heroImg} alt="heroImg" className="lg:hidden" />
         <div className="flex flex-col gap-5 xl:gap-12 xl:w-[600px] ">
           <h1 className="font-normal md:text-[48px] text-[28px] tracking-[-2%]">

@@ -4,7 +4,7 @@ import ContactForm from "./templates/form";
 const ContactMe = () => {
   return (
     <AnimationContainer className="sm:py-[60px] sm:px-10 py-10 px-4" id="contact-me">
-      <div className="flex flex-col-reverse items-center justify-center xl:items-start xl:justify-between xl:flex-row sm:px-8">
+      <div className="container flex flex-col-reverse items-center justify-center mx-auto xl:items-start xl:justify-between xl:flex-row sm:px-8">
         <div className="flex flex-1 py-5">
           <ContactForm/>
         </div>

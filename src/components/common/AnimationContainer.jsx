@@ -29,7 +29,7 @@ export const AnimationContainer = ({ children, className = "" , id }) => {
   );
 
   return (
-    <motion.div
+    <motion.section
       className={className}
       id={id}
       initial="hidden"
@@ -37,6 +37,6 @@ export const AnimationContainer = ({ children, className = "" , id }) => {
       viewport={{ once: true, amount: 0.2 }}
     >
       {animatedChildren}
-    </motion.div>
+    </motion.section>
   );
 };

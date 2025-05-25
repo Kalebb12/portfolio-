@@ -3,7 +3,7 @@ import { AnimationContainer } from "./common/AnimationContainer";
 const Skills = () => {
   return (
     <AnimationContainer className="lg:py-[60px] py-10 px-4 lg:px-[80px]" id="skills">
-      <div className="flex flex-col items-center gap-5 lg:px-8">
+      <div className="container flex flex-col items-center gap-5 mx-auto lg:px-8">
         <h2 className="font-normal md:text-[48px] text-[28px]">
           My <span className="font-extrabold">Skills</span>
         </h2>

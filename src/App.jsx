@@ -10,7 +10,7 @@ import Footer from "./components/footer"
 
 function App() {
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div className="">
       <Navbar/>
       <Hero/>
       <Skills/>

@@ -6,7 +6,7 @@ import { glass } from "../styles";
 const Navbar = () => {
   return (
     <nav className={`sm:px-20 sm:py-4 p-4 fixed z-20 top-0 w-full ${glass}`}>
-      <div className="flex items-center justify-between sm:px-8 max-w-[1300px]">
+      <div className="flex container mx-auto items-center justify-between sm:px-8 max-w-[1300px]">
         <Link
           to="#"
           onClick={() => {
