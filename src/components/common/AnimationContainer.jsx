@@ -20,7 +20,7 @@ export const AnimationContainer = ({ children, className = "" , id }) => {
   // Clone each child and apply itemVariants
   const animatedChildren = Array.isArray(childArray) ? (
     childArray.map((child, index) => (
-      <motion.div key={index} custom={index} variants={itemVariants} id="ch">
+      <motion.div key={index} variants={itemVariants} id="ch">
         {child}
       </motion.div>
     ))
@@ -32,6 +32,7 @@ export const AnimationContainer = ({ children, className = "" , id }) => {
     <motion.div
       className={className}
       id={id}
+      initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
     >
