@@ -76,10 +76,10 @@ export const projects = [
     des:"The Food Recipes Website is a comprehensive platform designed to showcase a wide variety of recipes from different cuisines. This project highlights my skills in React development, focusing on creating an engaging and interactive user experience for food enthusiasts."
   },
   {
-    img:"/reelReview.png",
-    name:"Reel Review Movie Website",
-    link:"https://reel-review-silk.vercel.app/",
-    des:"This dynamic and visually appealing movie website is built with React, leveraging the TMDB API to deliver up-to-date information about movies. The site features an elegant and responsive design powered by Tailwind CSS and DaisyUI, ensuring a seamless user experience across all devices."
+    img:"/ticz.png",
+    name:"TICZ Ticket Generator",
+    link:"https://conference-ticket-generator-psi.vercel.app/",
+    des:"Frontend website for generating conference tickets. Built with React and Tailwind CSS, it features a user-friendly form for inputting attendee details and dynamically generates a styled ticket that can be downloaded as an image."
   }
 ]
 
