@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root{
   --error:#ef4444;
@@ -16,10 +14,7 @@
 }
 
 *{
-  box-sizing: border-box;
   font-family: 'Sora', sans-serif;
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
 }
 
@@ -27,9 +22,13 @@
   /* -webkit-text-stroke: 1px #333; */
   /* -webkit-text-fill-color: transparent; */
   color: white;
-  text-shadow: 
+  text-shadow:
       -2px -2px 0 #000,  
       2px -2px 0 #000,  
       -2px 2px 0 #000,  
       2px 2px 0 #000;
+}
+
+.glass {
+  @apply bg-white/20 bg-clip-padding backdrop-filter backdrop-blur-md
 }

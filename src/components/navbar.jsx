@@ -1,10 +1,9 @@
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
-import { glass } from "../styles";
 const Navbar = () => {
   return (
-    <nav className={`sm:px-20 sm:py-4 p-4 fixed z-20 top-0 w-full ${glass}`}>
+    <header className="fixed top-0 z-20 w-full p-4 sm:px-20 sm:py-4 glass">
       <div className="flex container mx-auto items-center justify-between sm:px-8 max-w-[1300px]">
         <Link
           to="#"
@@ -38,7 +37,7 @@ const Navbar = () => {
           </button>
         </a>
       </div>
-    </nav>
+    </header>
   );
 };
 
