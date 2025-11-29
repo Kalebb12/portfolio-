@@ -23,7 +23,7 @@ const Navbar = () => {
               <a
                 href={`#${link.url}`}
                 key={i}
-                className="font-semibold text-[20px] hover:text-[var(--neutral)]"
+                className="font-semibold text-[20px] hover:text-(--neutral)"
               >
                 {link.title}
               </a>
@@ -32,7 +32,7 @@ const Navbar = () => {
         </ul>
 
         <a href="/calebResume.pdf" target="_blank" download="caleb-resume">
-          <button className="bg-[var(--black)] text-[var(--white)] flex items-center py-2 px-3 gap-2 rounded-sm hover:bg-[var(--neutral)] border border-black active:text-black active:bg-white">
+          <button className="bg-black text-white flex items-center py-2 px-3 gap-2 rounded-sm hover:bg-(--neutral) border border-black active:text-black active:bg-white">
             Resume <FiDownload width={20} height={20} />
           </button>
         </a>

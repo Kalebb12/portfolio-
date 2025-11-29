@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="md:px-20 md:py-6  py-5 px-4 bg-[var(--black)] text-[var(--white)]">
+    <div className="px-4 py-5 text-white bg-black md:px-20 md:py-6">
       <div className="container flex items-center justify-between mx-auto md:px-8">
         <h2 className="text-2xl font-bold">&lt; Caleb &gt;</h2>
 
