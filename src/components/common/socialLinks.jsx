@@ -9,7 +9,7 @@ const SocialLinks = () => {
             key={index}
             target="_blank"
             rel="noopener noreferrer"
-            className="h-[56px] w-[56px] rounded-lg p-4 border-2 flex justify-center items-center border-[var(--black)] hover:bg-black hover:text-white transition-all"
+            className="flex items-center justify-center p-4 transition-all border-2 border-black rounded-lg size-14 hover:bg-black hover:text-white"
           >
             <i className={profile.icon} />
           </a>

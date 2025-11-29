@@ -14,7 +14,7 @@ const ContactMe = () => {
               <h1 className="font-extrabold md:text-[48px] text-[28px] tracking-[-2%]">
                 Let’s <span className="text-outline">talk</span> for <br /> Something special
               </h1>
-              <p className="text-[var(--zinc-500)]">
+              <p className="text-(--zinc-500)">
                 I seek to push the limits of creativity to create high-engaging,
                 user-friendly, and memorable interactive experiences.
               </p>

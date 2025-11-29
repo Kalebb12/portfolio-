@@ -21,7 +21,7 @@ export const socialMediaPreferences = [
   },
   {
     title: "Twitter",
-    url: "https://x.com/ceejay717421235",
+    url: "https://x.com/cee__jhay_",
     icon: "fa-brands fa-x-twitter",
   },
 ];

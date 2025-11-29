@@ -12,13 +12,19 @@ const Testimonial = () => {
             My <span className="font-extrabold">Testimonial</span>
           </h2>
         </div>
-        <Marquee gradient={false}  speed={60} pauseOnClick z->
+        <Marquee speed={60} pauseOnClick z->
           <div className="flex items-center justify-between w-full gap-10 p-5 m:gap-3">
-            {
-              testimonials.map((testimony , i)=> {
-                return <CardComponent testimony={testimony} key={i} bg={i%2 === 0 ? "black" : "white"} text={i%2 === 0 ? "--white" : "--neutral"} hr={i%2 === 0 ? "white" : "black"} />
-              })
-            }
+            {testimonials.map((testimony, i) => {
+              return (
+                <CardComponent
+                  testimony={testimony}
+                  key={i}
+                  bg={i % 2 === 0 ? "black" : "white"}
+                  text={i % 2 === 0 ? "--white" : "--neutral"}
+                  hr={i % 2 === 0 ? "white" : "black"}
+                />
+              );
+            })}
           </div>
         </Marquee>
       </div>
