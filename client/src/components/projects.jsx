@@ -1,4 +1,3 @@
-import projectImg from "/image.png";
 import { projects } from "../constants";
 import ProjectComponent from "./common/projectsComponent";
 import { AnimationContainer } from "./common/AnimationContainer";

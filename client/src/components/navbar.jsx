@@ -1,20 +1,17 @@
 import { navLinks } from "../constants";
-import { Link } from "react-router-dom";
 import { FiPenTool } from "react-icons/fi";
 const Navbar = () => {
   return (
     <header className="fixed top-0 z-20 w-full p-4 sm:px-20 sm:py-4 glass">
       <div className="flex container mx-auto items-center justify-between sm:px-8 max-w-325">
-        <Link
-          to="#"
+        <div
           onClick={() => {
             window.scroll(0, 0);
           }}
+          className="flex cursor-pointer items-center gap-2 sm:gap-3"
         >
-          <div className="flex items-center gap-2 sm:gap-3">
-            <h2 className="text-3xl font-bold">&lt; Caleb &gt;</h2>
-          </div>
-        </Link>
+          <h2 className="text-3xl font-bold">&lt; Caleb &gt;</h2>
+        </div>
 
         {/* Getting the Links from Navlink constants*/}
         <ul className="items-center hidden gap-8 list-none lg:flex">
