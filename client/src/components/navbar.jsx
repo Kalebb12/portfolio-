@@ -1,10 +1,10 @@
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
-import { FiDownload } from "react-icons/fi";
+import { FiPenTool } from "react-icons/fi";
 const Navbar = () => {
   return (
     <header className="fixed top-0 z-20 w-full p-4 sm:px-20 sm:py-4 glass">
-      <div className="flex container mx-auto items-center justify-between sm:px-8 max-w-[1300px]">
+      <div className="flex container mx-auto items-center justify-between sm:px-8 max-w-325">
         <Link
           to="#"
           onClick={() => {
@@ -31,9 +31,12 @@ const Navbar = () => {
           })}
         </ul>
 
-        <a href="/calebResume.pdf" target="_blank" download="caleb-resume">
+        <a
+          href="https://drive.google.com/file/d/1s5aWnFn4Rdthh34CFSm770izj13UL1Ax/view?usp=drive_link"
+          target="_blank"
+        >
           <button className="bg-black text-white flex items-center py-2 px-3 gap-2 rounded-sm hover:bg-(--neutral) border border-black active:text-black active:bg-white">
-            Resume <FiDownload width={20} height={20} />
+            Resume <FiPenTool />
           </button>
         </a>
       </div>

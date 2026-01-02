@@ -5,7 +5,7 @@ import { AnimationContainer } from "./common/AnimationContainer";
 
 const Testimonial = () => {
   return (
-    <AnimationContainer className="sm:py-[60px] sm:px-10 py-10 px-4">
+    <AnimationContainer className="sm:py-15 sm:px-10 py-10 px-4">
       <div className="container flex flex-col items-center mx-auto sm:px-8 sm:gap-5">
         <div className="py-5">
           <h2 className="font-normal text-[28px] sm:text-[48px]">
