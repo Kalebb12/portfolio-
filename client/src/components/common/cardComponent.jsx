@@ -6,7 +6,7 @@ const CardComponent = ({
 }) => {
   return (
     <div
-      className={`bg-${bg} text-[var(${text})] max-w-92 rounded-[20px] flex shadow-custom1 flex-col justify-center items-center p-10 gap-6`}
+      className={`bg-${bg} text-(${text}) max-w-92 rounded-[20px] flex shadow-custom1 flex-col justify-center items-center p-10 gap-6`}
     >
       <img src="/man.png" alt="" />
       <p>{testimony.quote}</p>
