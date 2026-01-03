@@ -1,7 +1,45 @@
 import { projects } from "../constants";
 import ProjectComponent from "./common/projectsComponent";
 import { AnimationContainer } from "./common/AnimationContainer";
+import { useEffect, useState } from "react";
+import { sanityClient } from "../client";
 const Projects = () => {
+  const [projects, setProjects] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      setError(null);
+      setIsLoading(true);
+      try {
+        const data = await sanityClient.fetch(
+          `*[_type == "projects"]{
+      title,
+      img,
+      des,
+      img{
+        asset->{
+          _id,
+          url
+        },
+      },
+      github_url,
+      preview_url
+    }`
+        );
+        setProjects(data);
+        setIsLoading(false);
+      } catch (error) {
+        console.error(error);
+        setError(error);
+        setIsLoading(false);
+      }
+    };
+
+    fetchProjects();
+  }, []);
+
   return (
     <AnimationContainer
       id="project"
