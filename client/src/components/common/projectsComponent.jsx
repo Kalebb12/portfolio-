@@ -6,17 +6,17 @@ const ProjectComponent = ({ project, index: i }) => {
       } lg:flex-row flex-col flex items-center gap-5 xl:gap-10 py-5 `}
     >
       <img
-        src={project.img}
-        className="xl:min-w-148 lg:min-w-113 aspect-2/1 object-cover rounded-[18px] "
-        alt={`${project.name} img`}
+        src={project.img.asset.url}
+        className="xl:min-w-148 lg:min-w-113 aspect-2/1 object-cover rounded-[18px]"
+        alt={`${project.title} img`}
       />
       <div className="flex flex-col gap-6">
         <h1 className="text-white lg:text-[48px] text-[24px] font-extrabold">{`0${
           i + 1
         }`}</h1>
         <h2 className="lg:text-[32px] text-[20px] font-extrabold xl:font-bold text-white hover:text-gray-400 cursor-pointer">
-          <a href={project.link} target="_blank" rel="noreferrer">
-            {project.name}
+          <a href={project.preview_url} target="_blank" rel="noreferrer">
+            {project.title}
           </a>
         </h2>
         <p className="text-(--zinc-500) text-justify">{project.des}</p>

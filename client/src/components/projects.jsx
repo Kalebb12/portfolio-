@@ -1,10 +1,10 @@
-import { projects } from "../constants";
 import ProjectComponent from "./common/projectsComponent";
 import { AnimationContainer } from "./common/AnimationContainer";
 import { useEffect, useState } from "react";
 import { sanityClient } from "../client";
+import { ProjectSkeleton } from "./ProjectSkeleton";
 const Projects = () => {
-  const [projects, setProjects] = useState(null);
+  const [projects, setProjects] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -50,12 +50,21 @@ const Projects = () => {
           My <span className="font-extrabold">Projects</span>
         </h1>
         <div>
-          {projects.map((project, i) => {
-            return (
-              <ProjectComponent project={{ ...project }} index={i} key={i} />
-            );
-          })}
+          {projects &&
+            projects.map((project, i) => {
+              return (
+                <ProjectComponent project={{ ...project }} index={i} key={i} />
+              );
+            })}
         </div>
+        {isLoading &&
+          Array(3)
+            .fill(null)
+            .map((_, i) => (
+              <div className="w-full">
+                <ProjectSkeleton i={i} />
+              </div>
+            ))}
       </div>
     </AnimationContainer>
   );
