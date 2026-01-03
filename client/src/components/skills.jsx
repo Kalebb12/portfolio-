@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { skillsList } from "../constants";
 import { AnimationContainer } from "./common/AnimationContainer";
 const Skills = () => {
@@ -15,7 +16,7 @@ const Skills = () => {
                 key={index}
                 className="flex flex-col gap-8 items-center hover:bg-(--black) transition-all hover:text-white justify-center lg:w-46 size-37 lg:h-46 rounded border-2 p-6 border-(--black)"
               >
-                <i className={`${skill.icon} text-[40px]`}></i>
+                <FontAwesomeIcon icon={skill.icon} className="text-[40px]" />
                 <span className="text-lg">{skill.title}</span>
               </div>
             );

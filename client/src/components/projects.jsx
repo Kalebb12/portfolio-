@@ -1,44 +1,22 @@
 import ProjectComponent from "./common/projectsComponent";
 import { AnimationContainer } from "./common/AnimationContainer";
-import { useEffect, useState } from "react";
-import { sanityClient } from "../client";
 import { ProjectSkeleton } from "./ProjectSkeleton";
+import { useFetcher } from "../hooks/useFetcher";
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchProjects = async () => {
-      setError(null);
-      setIsLoading(true);
-      try {
-        const data = await sanityClient.fetch(
-          `*[_type == "projects"]{
-      title,
-      img,
-      des,
-      img{
-        asset->{
-          _id,
-          url
+  const query = `*[_type == "projects"]{
+        title,
+        img,
+        des,
+        img{
+          asset->{
+            _id,
+            url
+          },
         },
-      },
-      github_url,
-      preview_url
-    }`
-        );
-        setProjects(data);
-        setIsLoading(false);
-      } catch (error) {
-        console.error(error);
-        setError(error);
-        setIsLoading(false);
-      }
-    };
-
-    fetchProjects();
-  }, []);
+        github_url,
+        preview_url
+      }`;
+  const { data: projects, isLoading, error } = useFetcher(query);
 
   return (
     <AnimationContainer
@@ -61,7 +39,7 @@ const Projects = () => {
           Array(3)
             .fill(null)
             .map((_, i) => (
-              <div className="w-full">
+              <div className="w-full" key={i}>
                 <ProjectSkeleton i={i} />
               </div>
             ))}

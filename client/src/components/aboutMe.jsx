@@ -14,7 +14,7 @@ const AboutMe = () => {
           </div>
           <div className="flex gap-5 flex-col text-(--zinc-500)">
             <p className="">
-              I'm a passionate, self-proclaimed designer who specializes in full
+              I'm a passionate, software developer who specializes in full
               stack development (React.js & Node.js). I am very enthusiastic
               about bringing the technical and visual aspects of digital
               products to life. User experience, pixel perfect design, and
